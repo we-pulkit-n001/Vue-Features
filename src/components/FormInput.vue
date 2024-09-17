@@ -34,6 +34,17 @@
 
   </div>
 
+  <div>Selected: {{ selected }}</div>
+
+  <div>
+    <select v-model="selected">
+      <option value="A">First - A</option>
+    <option value="B">Second - B</option>
+    <option value="C">Third - C</option>
+    </select>
+    
+  </div>
+
 </template>
 
 <script setup>
@@ -46,6 +57,7 @@ const checked = ref(true);
 const checkedNames = ref([]);
 
 const picked = ref('');
+const selected = ref('A');
 
 </script>
 
