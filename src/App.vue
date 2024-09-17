@@ -3,6 +3,7 @@
   <MyComponent/>
   <ComputedComponent/>
   <EventHandler/>
+  <FormInput/>
 </template>
 
 <script>
